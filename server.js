@@ -3,7 +3,9 @@ const express = require('express');
 const app = express();
 const port = 3000;
 //-------------------------------------------------------------------------------
-const rotasTarefas = require('./routes/cervejas')
+
+//-------------------------------------------------------------------------------
+const rotasTarefas = require('./routes/tarefas')
 //-------------------------------------------------------------------------------
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
